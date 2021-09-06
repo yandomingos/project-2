@@ -38,7 +38,22 @@ for filename in filenames:
 
 ## Models studied and coded:
 
-### ARMA - Machine Learning - Time Series Analysis
+### ARMA & ARIMA - Machine Learning - Time Series Analysis
+
+
+[ARIMA](https://github.com/yandomingos/project-2/blob/main/ARIMA.ipynb)
+
+[ARMA]
+
+The first two models considered for this project were ARMA & ARIMA. 
+
+### LSTM & XGBRegressor
+
+
+
+[MODERNA - MRNA](https://github.com/yandomingos/project-2/blob/main/LSTM_MRNA.ipynb)
+
+
 
 
 
