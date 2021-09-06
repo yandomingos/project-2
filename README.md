@@ -36,7 +36,7 @@ for filename in filenames:
 ```
 -----------------
 
-## Models studied and coded:
+## Link to models studied and coded:
 
 ### ARMA & ARIMA - Machine Learning - Time Series Analysis
 
@@ -45,13 +45,15 @@ for filename in filenames:
 
 [ARMA]
 
-The first two models considered for this project were ARMA & ARIMA. 
-
 ### LSTM & XGBRegressor
 
-[MAIN NOTEBOOK: code and findings - ASTRAZENECA]()
+[MAIN NOTEBOOK: code and findings - ASTRAZENECA](https://github.com/yandomingos/project_2_predicting_stock_prices/blob/main/MAIN_NOTEBOOK_LSTM_AZT.ipynb)
 
-[MODERNA - MRNA](https://github.com/yandomingos/project-2/blob/main/LSTM_MRNA.ipynb)
+[PFIZER - PFE](https://github.com/yandomingos/project_2_predicting_stock_prices/blob/main/LSTM_XGBRegressor_PFE.ipynb)
+
+[JOHNSON & JOHNSON - JNJ](https://github.com/yandomingos/project_2_predicting_stock_prices/blob/main/LSTM_JNJ.ipynb)
+
+[MODERNA - MRNA](https://github.com/yandomingos/project_2_predicting_stock_prices/blob/main/LSTM_XGBRegressor_MRNA.ipynb)
 
 ## Summary of results and findings:
 
