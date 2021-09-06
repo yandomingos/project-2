@@ -49,7 +49,7 @@ The first two models considered for this project were ARMA & ARIMA.
 
 ### LSTM & XGBRegressor
 
-
+[MAIN NOTEBOOK: code and findings - ASTRAZENECA]()
 
 [MODERNA - MRNA](https://github.com/yandomingos/project-2/blob/main/LSTM_MRNA.ipynb)
 
@@ -57,12 +57,21 @@ The first two models considered for this project were ARMA & ARIMA.
 
 ARMA & ARIMA: Both the ARMA and the ARIMA model have p-values that are higher than .05 , and therefore, the coefficient for the autoregressive term is not significant and should not be kept in the models. The models are a great start point for the analysis, however, we believe that more key indicators should be added to the analysis as we're trying to get as close as possible to true prediction. As a result, we did not select neither as good models to move forward.
 
+#### ARIMA RESULTS
+
+![](./PNG_files/image_2.png)
+
+![](./PNG_files/image_3.png)
+
+
 XGBRegressor:
 
 LSTM - Long Short-Term Memory: we found this model to be the most trainable and resistant to noise. We added the following key indicators: Simple moving average, exponential moving average, moving average convergence and relative strenght index (RSI).
 In order to select this model as the most successful, we trained the model in different ways feeding it different data from different periods in time. 
 
+![](./PNG_files/image_5.png)
 
+![](./PNG_files/image_4.png)
 
 
 
