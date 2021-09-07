@@ -43,7 +43,7 @@ for filename in filenames:
 
 [ARIMA](https://github.com/yandomingos/project-2/blob/main/ARIMA.ipynb)
 
-[ARMA]
+[ARMA](https://github.com/yandomingos/project_2_predicting_stock_prices/blob/main/ARMA.ipynb)
 
 ### LSTM & XGBRegressor
 
@@ -65,14 +65,14 @@ for filename in filenames:
 ![](./PNG_files/image_3.png)
 
 
-**XGBRegressor** : 
+**XGBRegressor** : we decided to test this new model and compare it against the results of LSTM. This is a popular model for data prediction and the results confirmed it's good. The mean squared error came very low and the model managed to predict prices very close to true prices. 
 
 ![](./PNG_files/image_7.png)
 
 ![](./PNG_files/image_6.png)
 
 **LSTM - Long Short-Term Memory** : we found this model to be the most trainable and resistant to noise. We added the following key indicators: Simple moving average, exponential moving average, moving average convergence and relative strenght index (RSI).
-In order to select this model as the most successful, we trained the model in different ways feeding it different data from different periods in time. 
+In order to select this model as the most successful, we trained the model in different ways feeding it different data from different periods in time. As per results, this was the model that came closest to past predict prices. 
 
 ![](./PNG_files/image_5.png)
 
